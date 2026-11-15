@@ -37,6 +37,7 @@ Remove the files you copied:
 dst="${HERDR_APP_HOME:-$HOME/.config/herdr-app}"
 rm "$dst/layouts/minimalism.json"
 rm -rf "$dst/mods/"minimalism-*
+rm -rf "$dst/mods/resource-mini" "$dst/mods/resource-monitor" "$dst/mods/ntfy-alerts"
 rm "$dst/themes/minimalism.json" "$dst/themes/minimalism-light.json" "$dst/themes/minimalism-indigo.json"
 ```
 
